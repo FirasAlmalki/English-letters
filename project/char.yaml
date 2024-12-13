@@ -1,0 +1,6 @@
+train: C:\Users\Admin\Desktop\eng\dataset
+val: C:\Users\Admin\Desktop\eng\dataset
+test: C:\Users\Admin\Desktop\eng\dataset
+
+nc: 3
+names: ['A', 'B', 'C']
