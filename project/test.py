@@ -31,7 +31,7 @@ def test_image_with_model(model_path, image_path, output_dir):
     print(f"Processed image saved as {result_path}")
 
 # Example usage
-model_path = 'C:/Users/Admin/Desktop/Project/SignSpotter/runs/detect/train11/weights/best.pt'
+model_path = 'C:/Users/Admin/Desktop/Project/SignSpotter/runs/detect/train12/weights/best.pt'
 image_path = 'C:/Users/Admin/Desktop/test_image.jpg'
 output_dir = 'C:/Users/Admin/Desktop/result/'
 

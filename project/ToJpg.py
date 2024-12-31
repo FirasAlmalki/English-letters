@@ -2,12 +2,12 @@ from PIL import Image
 import os
 
 # Path to the root "Arabic" folder
-root_folder = "C:/Users/Admin/Desktop/Arabic"
+root_folder = "C:/Users/Admin\Desktop\الحروف العربية\الحروف العربية"
 
 # Loop through all subdirectories and files
 for subdir, _, files in os.walk(root_folder):
     for file in files:
-        if file.endswith((".png", ".jpeg", ".jpg")):  # Check for supported formats
+        if file.endswith((".png", ".jpeg", ".jpg", ".jfif")):  # Check for supported formats
             file_path = os.path.join(subdir, file)
 
             # Open the image and convert to .jpg
